@@ -44,7 +44,7 @@
 
 \markup {
   \fill-line {
-    \line { 2018 }
+    \line { 2019 }
     \center-column {
       \huge \smallCaps "Reharmonization Exercise 1"
       \line \italic {(First reharmonization)}
@@ -75,7 +75,7 @@ chExceptions = #( append
 right =  {
   \set Score.barNumberVisibility = #all-bar-numbers-visible
   \global
-  \tempo "Carefully" 4 = 80
+  \tempo "Joyfully" 4 = 90
   %\mark \markup { \small Playfully }
 
   r2 < e' g' bes' c''>8. <e' g' bes' c''> 16 <f' g' a' c''>2.  \tuplet 3/2{ < e' g' d' c'>8 e' d'} c' r4.
@@ -92,7 +92,7 @@ left = {
 }
 
 chordmusic =   \chordmode { \set chordNameExceptions = #chExceptions
-    r2 c4:7/e <f g a c'>2. <c d e g>2. c2.:7 f2. d2.:min7 g2:m7 g2:7 <b d f a> c2:7 c4:7/e <f g a c'>2. <c d e g>2. c2.:7/bes f2.:/a d2.:min7 g2:m7 bes4:/c f2:maj7 c4:7/e <gis c' dis' f'>2. g2.:7sus4 fis2.:7 f2.:maj7 f2.:6
+    r2 c4:7/e <f g a c'>2. <c d e g>2. c2.:7 f2. d2.:min7 g2:m7 g4:7 <b d f a>2. c2:7 c4:7/e <f g a c'>2. <c d e g>2. c2.:7/bes f2.:/a d2.:min7 g2:m7 bes4:/c f2:maj7 c4:7/e <gis c' dis' f'>2. g2.:7sus4 fis2.:7 f2.:maj7 f2.:6
     
   }
 
