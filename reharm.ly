@@ -82,7 +82,7 @@ right =  {
 <e' c' g' bes'>2. <a' c'' f'> \break
 <d' f' a' c''> <g bes d' f'>2 <g b d' f'>4 <b d' f' a'>2. <e' g' bes' c''>2 <e' g' bes' c''>8.
 <e' g' bes' c''>16
-<f' g' a' c''>2. <c' d' e' g'>2. <c' e' g' bes'>2. <f' a' c''>2. <d' f' a' c''>2. <g bes d' f'>2 <bes d' f' bes'>4 <e' f' a' c''>2 <c' e' g' bes'>4 <gis c' dis' f'>2. <g c' d' f'>2. <fis bes cis' e'>2. <f a c' e'>2. <f a c' d'>2.
+<f' g' a' c''>2. <c' d' e' g'>2. <c' e' g' bes'>2. <f' a' c''>2. <d' f' a' c''>2. <g bes d' f'>2 <bes d' f' bes'>4 <e' f' a' c''>2 <c' e' g' bes'>4 <gis c' dis' f'>2. <g c' d' f'>2. <fis bes cis' f'>2. <f a c' e'>2.~ <f a c' d'>2.
 % <fis a cis' e'> <a cis' e' gis'> <fis bes c' e'>
 }
 
@@ -92,7 +92,7 @@ left = {
 }
 
 chordmusic =   \chordmode { \set chordNameExceptions = #chExceptions
-    r2 c4:7/e <f g a c'>2. <c d e g>2. c2.:7 f2. d2.:min7 g2:m7 g4:7 <b d f a>2. c2:7 c4:7/e <f g a c'>2. <c d e g>2. c2.:7/bes f2.:/a d2.:min7 g2:m7 bes4:/c f2:maj7 c4:7/e <gis c' dis' f'>2. g2.:7sus4 fis2.:7 f2.:maj7 f2.:6
+    r2 c4:7/e <f g a c'>2. <c d e g>2. c2.:7 f2. d2.:min7 g2:m7 g4:7 <b d f a>2. c2:7 c4:7/e <f g a c'>2. <c d e g>2. c2.:7/bes f2.:/a d2.:min7 g2:m7 bes4:/c f2:maj7/d c4:7/e <gis c' dis' f'>2. g2.:7sus4 fis2.:maj7 f2.:maj7 f2.:6
     
   }
 
